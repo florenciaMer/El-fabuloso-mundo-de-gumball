@@ -46,12 +46,13 @@
     gap: 10px;
 }
 .main-1, .main-2, .main-3, .main-4{
-    border: 2px solid black;
+   border-right: 2px solid black;
+   padding: 10px;
 }
 .main-1{
     display: grid;
     grid-template-columns: 1fr;
-    border: 2px solid black;
+   
 }
 .main-1 h3{
     text-align: center;
@@ -67,7 +68,7 @@
 .main-2 ul{
     width: 90%;
     margin-left: 35px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .main-2 h3{
     text-align: center;
@@ -82,7 +83,7 @@
 .main-3 ul{
     width: 90%;
     margin-left: 35px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .main-3 h3{
     text-align: center;
@@ -97,7 +98,7 @@
 .main-4 ul{
     width: 90%;
     margin-left: 35px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .main-4 h3{
     text-align: center;
@@ -105,7 +106,7 @@
     font-size: 40px;
 }
 .rosa{
-    color:#e6c9cd;
+    color:#b56e77;
 }
 .aside{
     grid-area: aside;
@@ -115,9 +116,9 @@
 }
 .footer{
     grid-area: footer;
-    border:2px solid black;
     justify-self: stretch;
     background-color: #808080;
+    padding: 5px;
 }
 
 /* barra de navegacion */
